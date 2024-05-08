@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-app</title>
+    <style>
+
+        body{
+            border: 1px solid black;
+           
+
+        }
+                                                       
+        #container{
+        
+            width: 33svw;
+            margin: 5rem auto;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+        input[type="text"]{
+            height: 50px;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        li{
+            font-size: 30px;
+            list-style: none;
+            text-align: left;
+        }
+        input[type="checkbox"]{
+          zoom: 2;  
+        }
+        .completed{
+            text-decoration: line-through;
+            font-style: italic;
+            color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>To-Do-App</h1>
+    <input id="addtodo" type="text" placeholder="enter your todo"/>
+
+    <ul id="todoList">
+        
+    </ul>
+</div>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
